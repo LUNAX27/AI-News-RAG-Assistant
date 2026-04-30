@@ -1,2 +1,18 @@
-# AI-News-RAG-Assistant
-Build an AI information Q&amp;A system based on RAG, supporting the retrieval and summarization of the latest large model and technological developments.  构建基于RAG的AI资讯问答系统，支持对最新大模型与技术动态进行检索与总结
+# AI News RAG Assistant
+
+一个基于LangChain + FAISS构建的RAG问答系统，用于AI资讯检索与生成。
+
+## Features
+- 语义检索
+- RAG问答
+- AI知识总结
+
+## Tech Stack
+- LangChain
+- FAISS
+- DashScopeEmbeddings
+- DashScope (Tongyi)
+
+## Run
+python build_index.py
+python app.py
