@@ -8,7 +8,7 @@ with open("data/ai_news.txt", "r", encoding="utf-8") as f:
 #初始化
 embeddings = DashScopeEmbeddings(
     model="text-embedding-v2",
-    dashscope_api_key= "sk-8eff46d9de5c481b99118e7b31383a51"
+    dashscope_api_key= "your-api-key"
 )
 
 
